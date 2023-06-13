@@ -2,7 +2,7 @@
 
 Use your new eteeController as a Mouse.
 
-**Currently Windows onyl!** Feel free to help me use pyautogui for any other system. And yes I know, this code is ugly. Wanted to test the API and now my eteeController is a mouse.
+**Currently Windows only!** Feel free to help me use pyautogui for any other system. And yes I know, this code is ugly. Wanted to test the API and now my eteeController is a mouse.
 
 ## Controls
 
