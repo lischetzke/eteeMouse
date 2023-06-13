@@ -9,7 +9,7 @@ from etee import EteeController
 controller_selected = "right"
 finger_left = "index"
 finger_right = "middle"
-mouse_speed_multiplier = 0.5
+mouse_speed_multiplier = 0.2
 poll_rate = 50 # results in round about 50 updates per second
 
 def console_move (y, x):
