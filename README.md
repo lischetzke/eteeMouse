@@ -1,6 +1,8 @@
 # eteeMouse
 
-Use right eteeController as a Mouse. Feel free to change my code if you want to use the left controller.
+Use your new eteeController as a Mouse.
+
+**Currently Windows onyl!** Feel free to help me use pyautogui for any other system. And yes I know, this code is ugly. Wanted to test the API and now my eteeController is a mouse.
 
 ## Controls
 
