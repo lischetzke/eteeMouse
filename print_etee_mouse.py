@@ -116,7 +116,7 @@ if __name__ == "__main__":
             print(f"| Touch    | Press    |")
             print(f"{'|          |██████████|' if selected_pressure[3] else '|██████████|          |' if selected_pressure[2] else '|          |          |'}")
             print()
-            print(f">>>>> FINGER INDEX <<<<<")
+            print(f">>>>> FINGER {finger_left.upper()} <<<<<")
             print(f"Pull  ", end = "")
             printProgressBar(finger_data1[0], 126, printEnd="\n")
             print(f"Force ", end = "")
@@ -124,7 +124,7 @@ if __name__ == "__main__":
             print(f"| Touch    | Press    |")
             print(f"{'|          |██████████|' if finger_data1[3] else '|██████████|          |' if finger_data1[2] else '|          |          |'}")
             print()
-            print(f">>>>> FINGER MIDDLE <<<<<")
+            print(f">>>>> FINGER {finger_right.upper()} <<<<<")
             print(f"Pull  ", end = "")
             printProgressBar(finger_data2[0], 126, printEnd="\n")
             print(f"Force ", end = "")
@@ -170,4 +170,3 @@ if __name__ == "__main__":
             print(f"| {click_left:>12} | {click_right:>12} |")
             
             time.sleep(1 / poll_rate)
-
