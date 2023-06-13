@@ -14,7 +14,8 @@ Use your new eteeController as a Mouse.
 
 - Follow [etee-Python-API](https://github.com/eteeXR/etee-Python-API) guide for installing Python package.
 - Active above created venv
-- Run `print_etee_mouse.py`
+- Execute `pip install pywin32 pyautogui`
+- Execute `python print_etee_mouse.py`
 
 ## What can I change?
 
